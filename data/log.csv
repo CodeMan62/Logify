@@ -1,0 +1,4 @@
+timestamp,user_id,action,details
+2024-03-20T10:00:00Z,1001,login,{"device":"mobile"}
+2024-03-20T10:01:15Z,1002,search,{"query":"rust"}
+2024-03-20T10:02:00Z,1003,logout,{"duration":"30"}
