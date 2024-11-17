@@ -1,0 +1,5 @@
+2024-03-20T10:00:00Z [INFO] User login successful {"user_id": "123", "ip": "192.168.1.1"} action=login source=auth
+2024-03-20T10:00:05Z [ERROR] Database connection failed {"error_code": "DB001", "details": "timeout"} action=db_connect source=database
+2024-03-20T10:00:10Z [WARN] High CPU usage detected {"usage": 95, "process_id": "1234"} action=monitor source=system
+2024-03-20T10:00:15Z [INFO] User logout {"user_id": "123"} action=logout source=auth
+2024-03-20T10:00:20Z [ERROR] API request failed {"error_code": "API002", "status": 500} action=api_call source=external
