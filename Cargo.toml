@@ -4,16 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-chrono = { version = "0.4", features = ["serde"] }
-clap = { version = "4.0", features = ["derive"] }
-serde = { version = "1.0", features = ["derive"] }
-serde_json = "1.0"
-thiserror = "1.0"
-csv = "1.2"
-config = "0.13"
-regex = "1.8"
-tempfile = "3.5"
-
-[dev-dependencies]
-assert_cmd = "2.0"
-predicates = "3.0"
+chrono = "0.4.38"
+serde = {version="1.0.215" , features = ["derive"]}
+serde_json = "1.0.133"
