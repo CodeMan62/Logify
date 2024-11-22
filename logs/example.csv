@@ -1,4 +1,0 @@
-timestamp,level,message,action,source,metadata
-2024-03-20T10:00:00Z,info,User logged in,login,auth_service,{"user_id": 123}
-2024-03-20T10:01:00Z,warn,Failed login attempt,login,auth_service,{"user_id": 456}
-2024-03-20T10:02:00Z,error,System crash,error,system,{"error_code": 500}
